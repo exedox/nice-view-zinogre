@@ -411,4 +411,3 @@ const lv_img_dsc_t ig = {
   .data_size = 748,
   .data = ig_map,
 };
-
