@@ -20,15 +20,15 @@ manifest:
       # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: exedox                         #new entry
+      url-base: https://github.com/exedox  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-mod                 #new entry
-      remote: gpeye                       #new entry
+    - name: nice-view-zinogre                 #new entry
+      remote: exedox                       #new entry
       revision: main                      #new entry
   self:
     path: config
@@ -40,7 +40,7 @@ Now simply swap out the default nice_view shield on the board for the custom one
 ---
 include:
   - board: nice_nano_v2
-    shield: urchin_left nice_view_adapter  nice_view_custom #custom shield
+    shield: zinogre_left nice_view_adapter  nice_view_custom #custom shield
   - board: nice_nano_v2
-    shield: urchin_right nice_view_adapter nice_view_custom #custom shield
+    shield: zinogre_right nice_view_adapter nice_view_custom #custom shield
 ```
