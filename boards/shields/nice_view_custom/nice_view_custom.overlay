@@ -12,8 +12,11 @@
         reg = <0>;
         width = <160>;
         height = <68>;
+<<<<<<< HEAD
         serial-vcom-inversion;
         serial-vcom-interval = <33>;
+=======
+>>>>>>> parent of b26a008 (Update nice_view_custom.overlay)
     };
 };
 
