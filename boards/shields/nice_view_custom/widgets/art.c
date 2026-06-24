@@ -95,9 +95,9 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ZYNOGRE u
 };
 
 const lv_img_dsc_t zynogre = {
-  .header.cf = LV_IMG_CF_INDEXED_1BIT,
-  .header.always_zero = 0,
-  .header.reserved = 0,
+  .header.cf = LLV_COLOR_FORMAT_I1,
+
+
   .header.w = 139,
   .header.h = 68,
   .data_size = 1232,
@@ -191,9 +191,9 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_IG uint8_
 };
 
 const lv_img_dsc_t ig = {
-  .header.cf = LV_IMG_CF_ALPHA_1BIT,
-  .header.always_zero = 0,
-  .header.reserved = 0,
+  .header.cf = LV_COLOR_FORMAT_I1,
+
+
   .header.w = 68,
   .header.h = 68,
   .data_size = 612,
