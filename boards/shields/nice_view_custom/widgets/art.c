@@ -105,6 +105,9 @@ const lv_img_dsc_t zynogre = {
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 140,
+<<<<<<< HEAD
+>>>>>>> parent of a03765f (Update art.c)
+=======
 >>>>>>> parent of a03765f (Update art.c)
   .header.h = 68,
   .data_size = 1232,
